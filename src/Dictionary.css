@@ -1,3 +1,7 @@
 .Dictionary {
-  margin: 30px auto;
+ text-align: center;
+}
+
+.Dictionary input {
+  margin-bottom: 15px;
 }

@@ -12,6 +12,7 @@ export default function Dictionary() {
     setResults(response.data[0]);
   }
 
+    // api call to search for definition of word entered
   function search(event) {
     event.preventDefault()
 
@@ -20,6 +21,7 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse);
   }
 
+    // change keyword when new word is entered
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
   }
@@ -29,6 +31,8 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} autoFocus />
       </form>
+
+      {/* send definitions to results component */}
       <Results results={results} />
     </div>
   );
