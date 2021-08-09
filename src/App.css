@@ -1,14 +1,23 @@
 body {
-  background: #E6E6FA;
+  background: #def2f1;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 a {
-  color: #27185D;
+  color: #2B7A78;
 }
 
 .App {
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+.App h2 {
+  font-size: 40px;
+  color: #17252A;
+}
+.App .title {
+  text-align: center;
 }
 .App-header {
   margin: 30px 0;
