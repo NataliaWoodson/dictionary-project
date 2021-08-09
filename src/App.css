@@ -1,11 +1,15 @@
 body {
-  background: #D8BFD8;
+  background: #E6E6FA;
 }
 
 a {
   color: #27185D;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-header {
   margin: 30px 0;
 }

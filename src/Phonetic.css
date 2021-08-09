@@ -13,7 +13,7 @@
 }
 
 .Phonetic a:hover {
-  background-color: green;
+  background-color: #FC6681;
   color: white;
   transition: all 150ms ease-in-out;
 }
