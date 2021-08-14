@@ -14,7 +14,7 @@ function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className=".App-footer">
-          <small>Coded by Natalia Woodson</small> 
+          <small>Coded by Natalia Woodson and open-sourced on <a href="https://github.com/NataliaWoodson/dictionary-project.git" target="_blank" rel="noreferrer">GitHub</a></small> 
         </footer>
       </div>
     </div>
